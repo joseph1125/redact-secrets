@@ -1,6 +1,6 @@
 'use strict'
 
-var traverse = require('traverse')
+var traverse = require('neotraverse/legacy')
 var isSecret = require('is-secret')
 
 module.exports = function (redacted) {
